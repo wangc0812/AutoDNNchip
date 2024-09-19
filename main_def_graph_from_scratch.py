@@ -14,7 +14,7 @@ def def_conv():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '--store',
-        default='',
+        default='graph_defs/conv_eg.graph',
         help='the store location of the graph definition'
     )
     args = parser.parse_args()

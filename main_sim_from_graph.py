@@ -12,7 +12,7 @@ def sim():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '--graph_def',
-        default=None,
+        default='graph_defs/conv_eg.graph',
         help='one-for-all graph description'
     )
     args = parser.parse_args()
